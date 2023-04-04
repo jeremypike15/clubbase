@@ -5,6 +5,6 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "sinatra"
-gem "oauth2"
+gem "sinatra", ">= 2.2.3"
+gem "oauth2", ">= 1.4.11"
 gem "dotenv"
